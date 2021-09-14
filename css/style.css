@@ -1,27 +1,86 @@
 body {
     width: 1440px;
+    margin: 0 auto;
     background: #E0E8FF;
     background-image: url('../images/pattern-background-desktop.svg');
     background-repeat: repeat-x;
     color: #7280A7;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.summary-card {
+    text-align: center;
+    margin: 100px auto;
+    width: 450px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+header img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+    color: #1F2F56;
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+p {
+    padding: 0px 50px;
+    font-size: 16px;
+}
+
+.annual-plan {
+    background: #F5F7FF;
+    margin: auto;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.annual-plan img, .costs, a {
+    float: left;
+    margin: auto;
+}
+
+.annual-plan img {
+    width: 40px;
+    padding: 15px 0px;
+}
+
+.annual-plan .costs {
+    width: 170px;
+    
+}
+
+.annual-plan span {
+    color: #1F2F56;
+    font-weight: 500;
+}
+
+.annual-plan p {
+    font-size: 18px;
+}
+
+.annual-plan a {
+    width: 40px;
+    padding: 15px 0px;
 }
 
 
-
-
-
-
-
-
-
-
+.payment-button,.cancel-order {
+    clear: both;
+}
 
 
 
 
 /* footer */
 .attribution { 
-    font-size: 11px; text-align: center; 
+    clear: both;
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a { 
