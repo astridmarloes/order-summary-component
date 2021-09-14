@@ -1,0 +1,29 @@
+body {
+    width: 1440px;
+    background: #E0E8FF;
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: repeat-x;
+    color: #7280A7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
